@@ -1,0 +1,11 @@
+#define ERROR		//undefined-sign-error
+int main(){
+/*@#$%*/id*/		//the first "/*" only matches with the first "*/"
+			//that is to say, "/**/"cannot be nested
+/ /id			//no space between "//"
+//@#$%^\
+
+id			//'\\' can only offset one newline
+}
+
+
